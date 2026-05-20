@@ -1,4 +1,4 @@
-import aida fom 'aida-sdk'; // Use the new package name you published!
+import aida from 'aida-sdk'; // Use the new package name you published!
 
 // 1. Initialize the SDK
 aida.init({
