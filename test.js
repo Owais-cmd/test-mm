@@ -10,7 +10,7 @@ aida.init({
 });
 
 // 2. Simulate a fatal application error
-console.log("Starting application..")
+console.log("Starting application..
 
 console.warn("Memory usage is high..")
 
