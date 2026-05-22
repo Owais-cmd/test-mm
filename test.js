@@ -7,7 +7,7 @@ aida.init({
   baseUrl: "https://nondictatorially-spouseless-cornelius.ngrok-free.dev",
   environment: "staging",
   service: "my-test-script"
-});
+
 
 // 2. Simulate a fatal application error
 console.log("Starting application..")
