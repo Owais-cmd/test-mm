@@ -7,11 +7,11 @@ aida.init({
   baseUrl: "https://nondictatorially-spouseless-cornelius.ngrok-free.dev",
   environment: "staging",
   service: "my-test-script"
-});
+    
 
 // 2. Simulate a fatal application error
-console.log("Starting application..")
-console.warn("Memory usage is high..")
+console.log("Starting application
+console.warn("Memory usage is hih..")
 
 // Throwing this unhandled error will be automatically intercepted by the SDK!
 throw new Error("CRITICAL: Database connection lost during transaction!");
