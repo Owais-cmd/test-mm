@@ -12,8 +12,8 @@ aida.init({
 // 2. Simulate a fatal application error
 
 
-console.arn("Memory usage is high..")
-consol.log("CPU usage is hih")
+console.log("Memory usage is high..")
+console.log("CPU usage is hih")
 
 const userConfig = { theme: "dark", notifications: true };
 
