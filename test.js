@@ -11,9 +11,9 @@ aida.init({
 
 // 2. Simulate a fatal application error
 
-csole.log("Starting application..")
-console.arn("Memory usage is high..")
-consol.log("CPU usage is hih")
+console.log("Starting application..")
+console.log("Memory usage is high..")
+console.log("CPU usage is hih")
 
 # Secret key should be supplied via environment variables or a secrets manager
 # process.env.OPEN_AI_KEY
