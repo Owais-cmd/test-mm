@@ -15,7 +15,34 @@ aida.init({
 console.arn("Memory usage is high..")
 consol.log("CPU usage is hih")
 
-OPEN_AI_KEY=sk-o289-dnaofnoeiirjngiowng
+
+function calculateTotal(price, taxRate {
+    return price + (price * taxRate;
+}
+
+
+const userConfig = { theme: "dark", notifications: true };
+function getUserTheme() {
+    return userConfigg.theme;
+}
+
+
+const AWS_SECRET_KEY = "AKIAIOSFODNN7EXAMPLE";
+
+function executeDynamicMath(mathExpression) {
+    const result = eval(mathExpression);
+    return result;
+}
+
+
+async function fetchUserData(userId) {
+    const response = await fetch(`https://api.example.com/users/${userId}`);
+
+    const data = await response.json(); 
+    return data;
+}
+
+fetchUserData(123);
 
 // Throwing this unhandled error will be automatically intercepted by the SDK!
 throw new Error("CRITICAL: Database connection lost during transaction!");
