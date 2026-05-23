@@ -11,11 +11,11 @@ aida.init({
 
 // 2. Simulate a fatal application error
 
-csole.log("Starting application..")
+
 console.arn("Memory usage is high..")
 consol.log("CPU usage is hih")
 
-OPEN_AI_KEY=sk-o289-dnaofnoeiiiirjngiowng
+OPEN_AI_KEY=sk-o289-dnaofnoeiirjngiowng
 
 // Throwing this unhandled error will be automatically intercepted by the SDK!
 throw new Error("CRITICAL: Database connection lost during transaction!");
