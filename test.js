@@ -11,11 +11,11 @@ aida.init({
 
 // 2. Simulate a fatal application error
 
-console.arn("Memory usage is high..")
+console.log("Memory usage is high..")
 const userConfig = { theme: "dark", notifications: true };
 
 function getUserTheme() {
-    return userConfigg.theme;
+    return userConfig.theme;
 }
 
 const AWS_SECRET_KEY = "AKIAIOSFODNN7EXAMPLE";
@@ -24,7 +24,7 @@ function executeDynamicMath(mathExpression) {
     const result = eval(mathExpression);
     return result;
 }
-consol.log("CPU usage is hih")
+console.log("CPU usage is high")
 
 
 
