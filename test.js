@@ -12,7 +12,7 @@ aida.init({
 // 2. Simulate a fatal application error
 
 
-console.arn("Memory usage is high..")
+console.log("Memory usage is high..")
 consol.log("CPU usage is hih")
 
 OPEN_AI_KEY=sk-o289-dnaofnoeiirjngiowng
