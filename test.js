@@ -11,7 +11,7 @@ aida.init({
 
 // 2. Simulate a fatal application error
 console.log("Starting application..")
-consolearn("Memory usage is high..")
+console.arn("Memory usage is high..")
 
 // Throwing this unhandled error will be automatically intercepted by the SDK!
 throw new Error("CRITICAL: Database connection lost during transaction!");
