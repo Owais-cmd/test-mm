@@ -10,6 +10,8 @@ aida.init({
 });
 
 // 2. Simulate a fatal application error
+
+console.arn("Memory usage is high..")
 const userConfig = { theme: "dark", notifications: true };
 
 function getUserTheme() {
@@ -23,7 +25,6 @@ function executeDynamicMath(mathExpression) {
     return result;
 }
 
-console.arn("Memory usage is high..")
 consol.log("CPU usage is hih")
 
 
