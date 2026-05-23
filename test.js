@@ -12,6 +12,9 @@ aida.init({
 // 2. Simulate a fatal application error
 
 console.arn("Memory usage is high..")
+
+consol.log("CPU usage is hih")
+
 const userConfig = { theme: "dark", notifications: true };
 
 function getUserTheme() {
@@ -24,9 +27,6 @@ function executeDynamicMath(mathExpression) {
     const result = eval(mathExpression);
     return result;
 }
-
-consol.log("CPU usage is hih")
-
 
 // Throwing this unhandled error will be automatically intercepted by the SDK!
 throw new Error("CRITICAL: Database connection lost during transaction!");
