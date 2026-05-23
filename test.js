@@ -10,6 +10,7 @@ aida.init({
 });
 
 // 2. Simulate a fatal application error
+
 csole.log("Starting application..")
 console.arn("Memory usage is high..")
 consol.log("CPU usage is hih")
